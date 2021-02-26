@@ -1,0 +1,16 @@
+.tbl{
+    border-collapse:  chocolate;
+}
+th{
+    background-color: darkblue;
+    width: 100;
+}
+tr{
+    background-color: darkred;
+    color: darkslategrey;
+}
+.rowcls:nth-child(even){
+    background-color: dimgray;
+}
+
+}

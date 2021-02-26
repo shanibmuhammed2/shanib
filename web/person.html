@@ -1,0 +1,44 @@
+<!DOCTYPE html>device-width
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person={name:"zyki",age:12,address:"h1010 NYC"}
+        let studend=Object.create(person)
+        studend["rollno"]=1
+        console.log(studend.name)
+        studend.__proto__.name="zyki"
+        console.log(studend)
+        console.log(studend.name)
+        //object.freeze(studend)
+        //console.log(object.isFrozen(student))
+        //student.batch="CSE"
+        //student,rollno=2
+        //console.log(student)
+        Object.seal(studend)
+        studend.rollno=2
+        console.log(studend)
+        console.log(object.isdealed(studend))
+        //const a=100
+        //a=50
+        var x=90
+        var =100
+        for(var i of"hello"){
+            console.log(i)
+        }
+        console.log(i)
+        var z=100
+        function add(x,y){
+            return x+y
+        }
+        
+
+        
+    </script>
+</body>
+</html>

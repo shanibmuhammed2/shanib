@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let names = ["Anna", "rose", "kuttusan", "zyki", "toomi"]
+        console.log(names.slice(2, 5))
+        console.table(names)
+        for (Element of names) {
+            console.log(Element)
+        }
+        console.log("*********************")
+        for (index in names) {
+
+            console.log(index)
+            console.log(names[index])
+        }
+        console.log("**************using for Each function*************")
+        names.forEach((names) => {
+            console.log(names)
+        })
+        newary = names.map((names) => {
+            return name.concat("*")
+        })
+        console.log(newary)
+        let newarr2 = names.filter((name) => {
+            if (name.startsWith("R")) {
+
+            }
+        })
+        console.log(newarr2)
+        let num_ary = [9, 11, 10, 4, 7, 8]
+        let newarr3 = num_ary.map((x) => {
+            return x ** 2
+        })
+        console.log(newarr3)
+        let result = num_ary.reduce((x, y) => {
+            // console.log("x",y)
+            //console.log("y",y)
+            return x + y
+        })
+        console.log(result)
+       console.log(num_ary)
+        console.log("Array",num_ary)
+        num_ary.reverse()
+        console.log(num_ary)
+        // num_aray,sort()
+        // console.log("sort",num_aray)
+
+        
+
+    </script>
+</body>
+
+</html>
